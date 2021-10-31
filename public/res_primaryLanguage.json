@@ -1,118 +1,113 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Ursula Lopez. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 My name is Brandon Wolf. I am a Navy Veteran of 5 years as an avionics Electronics Technician. I did one deployment on the USS Harry S Truman where I led a team of 10 sailors to the repair of 422 aviation items. After the military, I attended Microsoft Software and System academy where I learned how to be a cloud administrator on Azure. It was during that class I learned the use of backend development and I enrolled in Code Fellows Coding Bootcamp to expand my knowledge. I am learning HTML, CSS, JavaScript, and Python. I have a growth mindset and I am not attached to any one place!  ",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Mental Health Awareness Questionnaire",
+      "startDate": "2021",
+      "description": "A project that I felt very passionate about. I work with fellow class members at Code Fellows to mkae an app that generates a chart from a user input questionnaire.",
+      "images": [
+        "images/portfolio/animal-shelter/p1.jpg",
+        "images/portfolio/animal-shelter/p2.jpg"
+      ],
+      "url": "https://bwolf7.github.io/mental-health-awareness/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-CSS-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-HTML-plain",
+          "name": "HTML"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "March for the 22",
+      "startDate": "2021",
+      "description": "Created a veteran website highlighting the amount of veterans who take their own life.",
+      "images": [
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/p2.jpg"
+      ],
+      "url": "https://www.marchforthe22.us/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "Wix"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Chocolate Pizza",
+      "startDate": "2021",
+      "description": "This was my first project to style a webpage with HTML and CSS. I have learned alot since!",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://bwolf7.github.io/chocolate-pizza-2/",
+      "technologies": [
+        {
+          "class": "devicon-html-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css-plain",
+          "name": "CSS"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Code Fellows",
+      "title": "Full Stack Develpoer Student",
+      "years": "09-2021 - present",
+      "mainTech": [
+        "HTML,CSS,JavaScript,Python"
+      ],
+      "technologies": [
+        "REST API",
+        "JavaScript",
+        "Bootstrap",
+        ".NET Core",
+        "Python",
+        "CSS",
+        "React",
+        "HTML"
+      ]
+    },
+    {
+      "company": "Microsoft Software and Systems Academy",
+      "title": "Student",
+      "years": "02-2021 - 05-2021",
+      "mainTech": [
+        "Microsoft Azure"
+      ],
+      "technologies": [
+        "Azure",
+        "Azure SQL",
+        "Azure IoT",
+        "Cloud",
+        "Azure AD"
+      ]
+    }
+  ]
+}
